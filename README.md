@@ -35,13 +35,4 @@ Mở http://localhost:8000
 ## Cấu trúc CSDL
 users, categories, articles, comments, contacts (xem `database/newsdb.sql`).
 
-## Đẩy lên GitHub
-```
-git init
-git add .
-git commit -m "Website tin tuc Laravel"
-git branch -M main
-git remote add origin https://github.com/<tai-khoan>/<ten-repo>.git
-git push -u origin main
-```
-> Lưu ý: GitHub Pages chỉ chạy web tĩnh nên không chạy được Laravel/MySQL. Repo GitHub dùng để nộp mã nguồn; demo chạy local.
+
